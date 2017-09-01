@@ -13,7 +13,7 @@ mytree <- read.tree("~/GitHub/Locus-Coverage-Heatmap/example_data/RAxML_bipartit
 #identify(mytree)
 #uncomment the above lines to plot tree and ID the node number to root with. 
 
-mytree <- root(mytree, node = 79, resolve.root = FALSE)
+mytree <- root(mytree, node = 169, resolve.root = FALSE)
 #change the node number to the proper root value, determined above.   
 
 mytree_brlen <- compute.brlen(mytree, method="Grafen") 
